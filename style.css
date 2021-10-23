@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+
+body{
+    background: linear-gradient(120deg,rgba(0, 0, 0, 0.932),rgb(1, 0, 14));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    padding: 2rem ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(71, 70, 73);
+}
+
+.time{
+    font-size: 5rem;
+    color: rgb(241, 235, 200);
+}
+
+.ampm{
+    font-size: xx-large;
+    color: rgb(156, 208, 233);
+}
+
+.date{
+    font-size: 2rem;
+    padding: 0 3rem;
+    color: rgb(205, 191, 253);
+}
+
+@media  screen and (max-width: 500px) {
+    .clock{
+        padding: 1rem;
+    }
+    .time{
+        font-size: 3rem;
+    }
+    .ampm{
+        font-size: large;
+    }
+    .date{
+        font-size: large;
+    }
+}
